@@ -27,7 +27,7 @@ const Cart = () => {
                 <p>Your cart is empty.</p>
             ) : (
                 <div className='max-w-full overflow-x-scroll'>
-                    <table className='w-full'>
+                    <table className='w-max'>
                         <thead>
                             <th className='text-start'>Action</th>
                             <th className='text-start'>Product</th>

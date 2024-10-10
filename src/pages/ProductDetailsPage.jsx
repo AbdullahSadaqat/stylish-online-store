@@ -108,7 +108,7 @@ const ProductDetailsPage = () => {
                     </Link>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-6 gap-4 mb-8">
+                <div className="grid grid-cols-2 md:grid-cols-6 gap-4 mb-8 px-4">
 
                     {products?.map(product => {
                         return product.isFeatured && <Card data={product} key={product.id} />

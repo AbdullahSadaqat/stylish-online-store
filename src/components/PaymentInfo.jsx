@@ -23,11 +23,11 @@ const PaymentInfo = ({ onSubmit, onBack }) => {
     });
 
     return (
-        <div className='flex'>
-            <div className='lg:w-1/2 flex items-center'>
+        <div className='flex flex-col'>
+            <div className='w-full lg:w-1/2 flex items-center'>
             <img src="/images/payment.webp" alt="" className='w-full' />
             </div>
-            <div className='lg:w-1/2'>
+            <div className='w-full lg:w-1/2'>
                 <form onSubmit={formik.handleSubmit} className="bg-white p-6 lg:w-4/5 mx-auto">
                     <h2 className="text-2xl mb-4">Payment Information</h2>
                     <input

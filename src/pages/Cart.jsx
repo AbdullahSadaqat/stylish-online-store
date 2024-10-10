@@ -26,7 +26,7 @@ const Cart = () => {
             {cartItems.length === 0 ? (
                 <p>Your cart is empty.</p>
             ) : (
-                <div>
+                <div className='max-w-full overflow-x-scroll'>
                     <table className='w-full'>
                         <thead>
                             <th className='text-start'>Action</th>
